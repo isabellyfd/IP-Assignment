@@ -1,6 +1,6 @@
 package twu.tests.VerticalLine;
 
-import twu.icfd.entity.Asteristic;
+import twu.icfd.entity.Chars;
 import twu.icfd.entity.Vertical;
 import twu.icfd.util.InputReader;
 
@@ -12,7 +12,7 @@ public class DrawVerticalLine {
         int n = reader.getUserInput("try a number ");
         System.out.println();
 
-        vertical.printLine(n, Asteristic.CHARACTER);
+        vertical.printLine(n, Chars.ASTERISTICS);
 
     }
 }

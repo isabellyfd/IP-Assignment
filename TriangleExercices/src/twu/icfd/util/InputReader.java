@@ -17,4 +17,9 @@ public class InputReader {
     public int getUserInput(){
         return in.nextInt();
     }
+
+    public String getUserName(String message){
+        System.out.println(message);
+        return in.next();
+    }
 }

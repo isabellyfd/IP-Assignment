@@ -1,6 +1,6 @@
 package twu.tests.HorizontalLine;
 
-import twu.icfd.entity.Asteristic;
+import twu.icfd.entity.Chars;
 import twu.icfd.entity.Horizontal;
 import twu.icfd.util.InputReader;
 
@@ -13,6 +13,6 @@ public class DrawHorizontalLine {
         int n = reader.getUserInput("try a number ");
         System.out.println();
 
-        horizontal.printLine(n, Asteristic.CHARACTER);
+        horizontal.printLine(n, Chars.ASTERISTICS);
     }
 }
