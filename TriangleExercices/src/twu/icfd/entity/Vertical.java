@@ -1,6 +1,6 @@
 package twu.icfd.entity;
 
-public class Vertical extends Line{
+public class Vertical implements Line{
 
     @Override
     public void printLine(int n) {

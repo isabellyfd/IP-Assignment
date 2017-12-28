@@ -1,6 +1,6 @@
 package twu.icfd.entity;
 
-public abstract class Line {
+public interface Line {
 
-    abstract public void printLine(int n);
+    void printLine(int n);
 }
