@@ -9,7 +9,7 @@ public class Triangle extends Shape {
     @Override
     public void draw() {
         for ( int i = 0; i < this.getSize(); i++){
-            this.getPrinter().printLine( i + 1);
+            this.getPrinter().printLine( i + 1, Asteristic.CHARACTER);
             System.out.println();
         }
     }

@@ -2,5 +2,5 @@ package twu.icfd.entity;
 
 public interface Line {
 
-    void printLine(int n);
+    void printLine(int n, String character);
 }
