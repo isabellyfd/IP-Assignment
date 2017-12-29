@@ -19,8 +19,13 @@ public class GenerateFactors {
             }
         }
 
-       for (Integer factor : set){
-            System.out.print(factor + " ");
+       if (set.isEmpty()){
+            System.out.println("there's no prime factor! sorry :(");
+       }else {
+           for (Integer factor : set){
+               System.out.print(factor + " ");
+           }
        }
+
     }
 }
